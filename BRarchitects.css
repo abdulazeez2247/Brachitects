@@ -1,0 +1,199 @@
+*{
+   list-style: none;
+   text-decoration: none;
+   margin: 0px;
+   padding: 0px;
+}
+.section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 0px 40px;
+    position: sticky; 
+    top: 0;
+    background-color: white;
+
+}
+.navbar ul{
+    display: flex;
+    gap: 30px;
+    letter-spacing: 3px;
+}
+.arch{
+    font-weight: 100;
+}
+.br{
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.section2{
+    background-image: url(./assets/architect.jpg);
+    background-size: cover;
+    height: 90vh;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.spanbr{
+    letter-spacing: 8px;
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, 0.897);
+    color: white;
+    padding: 12px 8px;
+    font-weight: 900;
+
+
+}
+.cont{
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+}
+.summer{
+    width: 25%;
+    position: relative;
+}
+.summer img{
+    width: 100%;
+    
+}
+.imgtext{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    font-size: 15px;
+    
+}
+.container{
+    padding: 0 20px;
+}
+h2{
+    padding:  40px 0px; 
+}
+h3{
+    font-size: 20px;
+    padding: 30px 0;
+}
+.contall{
+    display: flex;
+    gap: 20px;
+}
+.cont2{
+    width: 25%;
+    
+}
+.cont2 img{
+    width: 100%;
+}
+.h4{
+   font-size: 15px;
+   padding: 40px 0 ;
+   
+   
+}
+.ceo{
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.493);
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+.john{
+    padding-top:20px;
+}
+.button{
+    background-color: rgba(0, 0, 0, 0.062);
+    border: none;
+    width: 100%;
+    height: 6vh;
+    margin: 20px 0;
+}
+.button:hover{
+    background-color: rgba(0, 0, 0, 0.253);
+
+}
+.p{
+    padding-bottom: 30px;
+}
+.h1{
+    padding-top: 20px;
+}
+.abt{
+    padding: 20px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    
+}
+.txt{
+    width: 98%;
+   padding: 10px;
+   margin-top: 10px;
+}
+
+.but{
+    background-color: black;
+    color: white;
+   padding: 10px ;
+   margin-top: 20px;
+}
+   
+   
+.section5{
+    background-image: url(./assets/map.jpg);
+    background-size: cover;
+   background-repeat: no-repeat;
+   height: 90vh;
+   margin-top: 10px;
+}
+.section6{
+    background-color: black;
+    color: white;
+    height: 15vh;
+    margin-top: 10px;
+    
+}
+.link{
+    display: flex;
+    justify-content: center;
+    padding: 40px ;
+}
+.w3{
+    color: white;
+    text-decoration: underline;
+}
+
+
+@media screen  and (max-width :768px){
+    .navbar ul{
+        display: none;
+        
+        letter-spacing: 3px;
+    }
+    
+    .cont{
+        display: block;
+        gap: 10px;
+        
+    }
+    .summer{
+        width: 100%;
+       
+    }
+    .contall{
+        display: block;
+        gap: 20px;
+    }
+    .cont2{
+        width: 100%;
+        
+    }
+    .firsttraining{
+        margin-top: 20px;
+    }
+}
